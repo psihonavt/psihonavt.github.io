@@ -1,0 +1,44 @@
+site_name: Writing must be concise and precise 
+docs_dir: docs
+site_url: https://cake-icing.xyz
+
+nav:
+  - .: index.md
+  - Roadtrip1: 
+    - January: 'nav/roadtrip1/01 January.md'
+    - February: 'nav/roadtrip1/02 February.md'
+
+theme:
+  name: simple-blog
+  favicon: assets/favicon.ico
+  # logo: assets/logo.png
+  theme_style: light
+  site_name_style: normal
+  title_style: bold
+  colors:
+    text: black
+    title: black
+    primary: black
+    background: white
+  components:
+    site_name: true
+    title: true
+    menu: true
+    preview: true
+    footer: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - js/extra.js
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      
+plugins:
+  - search
+
+hooks:
+  - hooks/relative-links.py
