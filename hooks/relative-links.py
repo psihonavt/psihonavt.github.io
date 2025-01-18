@@ -14,9 +14,10 @@ log = logging.getLogger(f"mkdocs.plugins.{__name__}")
 ROAMLINK_RE = r"""\[\[(.*?)(\#.*?)?(?:\|([\D][^\|\]]+[\d]*))?(?:\|(\d+)(?:x(\d+))?)?\]\]"""
 
 class RoamLinkReplacer:
-    def __init__(self, base_docs_url, page_url):
+    def __init__(self, base_docs_url, page_url, attachments_folder):
         self.base_docs_url = base_docs_url
         self.page_url = page_url
+        self.attachments_folder = attachments_folder
 
     def simplify(self, filename):
         """ ignore - _ and space different, replace .md to '' so it will match .md file,
@@ -69,7 +70,8 @@ class RoamLinkReplacer:
                     if title:
                         rel_link_url = rel_link_url + '#' + format_title
             else:
-                for root, dirs, files in os.walk(self.base_docs_url, followlinks=True):
+                attachments_folder = os.path.join(self.base_docs_url, self.attachments_folder)
+                for root, dirs, files in os.walk(attachments_folder, followlinks=True):
                     for name in files:
                         # If we have a match, create the relative path from linker to the link
                         if self.simplify(name) == self.simplify(filename):
@@ -118,7 +120,7 @@ def on_page_markdown(markdown, **kwargs):
     base_docs_url = config["docs_dir"]
     markdown = re.sub(
         ROAMLINK_RE, 
-        RoamLinkReplacer(base_docs_url, page.file.src_path), 
+        RoamLinkReplacer(base_docs_url, page.file.src_path, "assets/obsidian_attachments"), 
         markdown
     )
     return markdown
