@@ -1,1 +1,7 @@
 __pycache__
+site
+config.ini
+ai-assist.py
+hooks/translations
+.venv
+.cache

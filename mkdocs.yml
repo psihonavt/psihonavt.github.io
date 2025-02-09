@@ -11,7 +11,6 @@ nav:
 theme:
   name: simple-blog
   favicon: assets/favicon.ico
-  # logo: assets/logo.png
   theme_style: light
   site_name_style: normal
   title_style: bold
@@ -25,7 +24,8 @@ theme:
     title: true
     menu: true
     preview: true
-    footer: false
+    footer: true
+  custom_dir: custom_theme/
 
 extra_css:
   - stylesheets/extra.css
@@ -36,9 +36,11 @@ extra_javascript:
 markdown_extensions:
   - toc:
       permalink: "#"
+      anchorlink_class: "my-class"
       
 plugins:
   - search
 
 hooks:
   - hooks/relative-links.py
+  - hooks/add-translation.py

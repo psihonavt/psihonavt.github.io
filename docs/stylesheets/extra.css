@@ -1,2 +1,23 @@
 .nav-link[rel="next"] {display: none;}
 .nav-link[rel="prev"] {display: none;}
+
+.language-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 4px;  /* reduced padding */
+    background-color: transparent;  /* remove background */
+    border: 1px solid #ddd;  /* subtle border */
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;  /* fixed width */
+    height: 24px;  /* fixed height */
+}
+
+.language-toggle:hover {
+    border-color: #999;
+    background-color: rgba(0, 0, 0, 0.05);  /* subtle hover effect */
+}
