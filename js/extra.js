@@ -11,6 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
+    if (!document.location.href.includes('roadtrip1')) {
+        console.log('Only the roadtrip pages need a language toggle...');
+        return;
+    }
+
     const button = document.createElement('button');
     button.className = 'language-toggle';
     button.textContent = '🇺🇸';
