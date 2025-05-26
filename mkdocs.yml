@@ -7,6 +7,8 @@ nav:
   - Roadtrip1: 
     - January: 'nav/roadtrip1/01 January.md'
     - February: 'nav/roadtrip1/02 February.md'
+    - March: 'nav/roadtrip1/03 March.md'
+    - Conclusions: 'nav/roadtrip1/Conclusions.md'
 
 theme:
   name: simple-blog
@@ -37,6 +39,7 @@ markdown_extensions:
   - toc:
       permalink: "#"
       anchorlink_class: "my-class"
+  - nl2br
       
 plugins:
   - search
@@ -44,3 +47,4 @@ plugins:
 hooks:
   - hooks/relative-links.py
   - hooks/add-translation.py
+  - hooks/descale-images.py

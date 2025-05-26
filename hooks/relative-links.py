@@ -118,7 +118,6 @@ class RoamLinkReplacer:
 
 @mkdocs.plugins.event_priority(-2)
 def on_page_markdown(markdown, **kwargs):
-    print("LINKS FIXER HOOK")
     config = kwargs["config"]
     page = kwargs["page"]
     base_docs_url = config["docs_dir"]
