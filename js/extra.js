@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-    if (!document.location.href.includes('roadtrip1')) {
+    if (!document.location.href.includes('roadtrip1') && !document.location.href.includes('pub')) {
         console.log('Only the roadtrip pages need a language toggle...');
         return;
     }

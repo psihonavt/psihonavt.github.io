@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>Anton&#39;s braindump</title>
+    <description>Anton&#39;s braindump</description>
+    <link>https://cake-icing.xyz/</link>
+    <atom:link href="https://cake-icing.xyz/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
+
+    
+    
+    
+    <language>en</language>
+
+    
+    <pubDate>Thu, 29 May 2025 23:57:30 -0000</pubDate>
+    <lastBuildDate>Thu, 29 May 2025 23:57:30 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.17.2</generator>
+
+    
+    
+    <image>
+      <url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png</url>
+      <title>Anton's braindump</title>
+      <link>https://cake-icing.xyz/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>Conclusions</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;[EN]&lt;/p&gt;
+&lt;h2&gt;General&lt;/h2&gt;
+&lt;p&gt;I&#39;m writing this as I&#39;ve been back to LA for almost a week. These recent days have been very busy – I&#39;ve been selling my stuff; alm...&lt;/p&gt;</description>
+      <link>https://cake-icing.xyz/nav/roadtrip1/Conclusions/</link>
+      <pubDate>Thu, 29 May 2025 23:57:41 +0000</pubDate>
+      <source url="https://cake-icing.xyz/feed_rss_updated.xml">Anton's braindump</source>
+      
+      <guid isPermaLink="true">https://cake-icing.xyz/nav/roadtrip1/Conclusions/</guid>
+      
+    </item>
+    
+    <item>
+      <title>March</title>
+      
+      
+      
+      
+      <description>The month of March</description>
+      <link>https://cake-icing.xyz/nav/roadtrip1/03%20March/</link>
+      <pubDate>Thu, 29 May 2025 23:57:41 +0000</pubDate>
+      <source url="https://cake-icing.xyz/feed_rss_updated.xml">Anton's braindump</source>
+      
+      <guid isPermaLink="true">https://cake-icing.xyz/nav/roadtrip1/03%20March/</guid>
+      
+    </item>
+    
+    <item>
+      <title>February</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;[EN]&lt;/p&gt;
+&lt;h2&gt;02/01/2025&lt;/h2&gt;
+&lt;p&gt;Miles driven: 2253&lt;/p&gt;
+&lt;p&gt;I think Big Bend NP is one of those parks you don&#39;t fall for immediately. Like Death Valley or Joshua Tree....&lt;/p&gt;</description>
+      <link>https://cake-icing.xyz/nav/roadtrip1/02%20February/</link>
+      <pubDate>Thu, 29 May 2025 23:57:41 +0000</pubDate>
+      <source url="https://cake-icing.xyz/feed_rss_updated.xml">Anton's braindump</source>
+      
+      <guid isPermaLink="true">https://cake-icing.xyz/nav/roadtrip1/02%20February/</guid>
+      
+    </item>
+    
+    <item>
+      <title>January</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;The odometer readings: 141198 miles&lt;/p&gt;
+&lt;p&gt;[EN]&lt;/p&gt;
+&lt;h2&gt;01/12/2025&lt;/h2&gt;
+&lt;p&gt;Why did I leave Nimble? Because I felt stuck. No purpose and no direction. Do I want to sta...&lt;/p&gt;</description>
+      <link>https://cake-icing.xyz/nav/roadtrip1/01%20January/</link>
+      <pubDate>Thu, 29 May 2025 23:57:41 +0000</pubDate>
+      <source url="https://cake-icing.xyz/feed_rss_updated.xml">Anton's braindump</source>
+      
+      <guid isPermaLink="true">https://cake-icing.xyz/nav/roadtrip1/01%20January/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Writing For Youself</title>
+      
+      
+      
+      
+      <description>abstract; why do I want to keep writing</description>
+      <link>https://cake-icing.xyz/nav/pub/writing-for-yourself/</link>
+      <pubDate>Thu, 29 May 2025 23:57:41 +0000</pubDate>
+      <source url="https://cake-icing.xyz/feed_rss_updated.xml">Anton's braindump</source>
+      
+      <guid isPermaLink="true">https://cake-icing.xyz/nav/pub/writing-for-yourself/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>
