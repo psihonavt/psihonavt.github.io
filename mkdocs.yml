@@ -1,6 +1,7 @@
-site_name: Writing must be concise and precise 
+site_name: Writing must be concise and precise
 docs_dir: docs
 site_url: https://cake-icing.xyz
+site_description: I write for myself here.
 
 nav:
   - .: index.md
@@ -9,6 +10,9 @@ nav:
     - February: 'nav/roadtrip1/02 February.md'
     - March: 'nav/roadtrip1/03 March.md'
     - Conclusions: 'nav/roadtrip1/Conclusions.md'
+  # - Notes:
+  #   - Writing For Youself: 'nav/pub/writing-for-yourself.md'
+    # - RSS feed: 'nav/pub/rss-feed.md'
 
 theme:
   name: simple-blog
@@ -43,8 +47,24 @@ markdown_extensions:
       
 plugins:
   - search
+  - rss:
+      feed_description: Anton's braindump
+      feed_title: Anton's braindump
+      use_git: false
+      pretty_print: true
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+      match_path: nav/.*
+      date_from_meta:
+        as_creation: "date"
+        as_update: "updated" # means from git log
+        datetime_format: "%m/%d/%Y"
+        default_timezone: America/Los_Angeles
+      use_material_blog: false
+      use_material_social_cards: false
+      json_feed_enabled: false
 
 hooks:
   - hooks/relative-links.py
   - hooks/add-translation.py
   - hooks/descale-images.py
+  - hooks/generate-nav-notes.py

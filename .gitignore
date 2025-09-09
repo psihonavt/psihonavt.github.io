@@ -5,3 +5,5 @@ ai-assist.py
 hooks/translations
 .venv
 .cache
+.DS_Store
+.DS_Store/

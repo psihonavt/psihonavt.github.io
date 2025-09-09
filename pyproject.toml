@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "psihonavt-github-io"
+version = "0.1.0"
+description = ""
+authors = ["Anton Koval <anton@nimble.com>"]
+readme = "README.md"
+packages = [{include = "psihonavt"}]
+
+[tool.poetry.dependencies]
+python = "3.12.8"
+mkdocs = "^1.6.1"
+mkdocs-simple-blog = "^0.1.0"
+magentic = "^0.38.1"
+pydantic = "^2.10.6"
+ipython = "^8.32.0"
+ipdb = "^0.13.13"
+anthropic = "^0.45.2"
+loguru = "^0.7.3"
+rich = "^13.9.4"
+pillow = "^11.1.0"
+filetype = "^1.2.0"
+opencv-python = "^4.11.0.86"
+numpy = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
